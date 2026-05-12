@@ -3,18 +3,18 @@
 .our_rooms {
   position: relative;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
   width: 100%;
   height: 300px;
   margin-top: 112px;
-  padding-left: 20%;
   overflow: hidden;
   background-image: url("../assets/images/hotel_room.webp");
   background-position: 50% 60%;
   background-size: cover;
   color: #fff;
+  text-align: center;
 }
 
 .our_rooms::before {
