@@ -1,0 +1,85 @@
+{
+  "Europa": [
+    {
+      "name": "Amalfi, Włochy",
+      "img": "assets/images/cities/amalfi.jpg",
+      "price": 890
+    },
+    {
+      "name": "Santorini, Grecja",
+      "img": "assets/images/cities/santorini.jpg",
+      "price": 820
+    },
+    {
+      "name": "Madera, Portugalia",
+      "img": "assets/images/cities/madera.jpg",
+      "price": 680
+    },
+    {
+      "name": "Dubrownik, Chorwacja",
+      "img": "assets/images/cities/dubrownik.jpg",
+      "price": 610
+    },
+    {
+      "name": "Majorka, Hiszpania",
+      "img": "assets/images/cities/majorka.jpg",
+      "price": 740
+    },
+    {
+      "name": "Reykjavik, Islandia",
+      "img": "assets/images/cities/reykjavik.jpg",
+      "price": 950
+    }
+  ],
+  "Azja": [
+    {
+      "name": "Bali, Indonezja",
+      "img": "assets/images/cities/bali.jpg",
+      "price": 980
+    },
+    {
+      "name": "Kioto, Japonia",
+      "img": "assets/images/cities/kioto.jpg",
+      "price": 1250
+    },
+    {
+      "name": "Phuket, Tajlandia",
+      "img": "assets/images/cities/phuket.jpg",
+      "price": 890
+    },
+    {
+      "name": "Malediwy",
+      "img": "assets/images/cities/malediwy.jpg",
+      "price": 1450
+    }
+  ],
+  "Ameryka": [
+    {
+      "name": "Nowy Jork, USA",
+      "img": "assets/images/cities/nowyjork.jpg",
+      "price": 1350
+    },
+    {
+      "name": "Tulum, Meksyk",
+      "img": "assets/images/cities/tulum.jpg",
+      "price": 1120
+    },
+    {
+      "name": "Rio de Janeiro, Brazylia",
+      "img": "assets/images/cities/rio.jpg",
+      "price": 1180
+    }
+  ],
+  "Afryka": [
+    {
+      "name": "Marrakesz, Maroko",
+      "img": "assets/images/cities/marrakesz.jpg",
+      "price": 760
+    },
+    {
+      "name": "Zanzibar, Tanzania",
+      "img": "assets/images/cities/zanzibar.jpg",
+      "price": 1050
+    }
+  ]
+}

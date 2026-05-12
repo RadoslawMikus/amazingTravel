@@ -1,0 +1,241 @@
+/* ABOUT */
+
+.about {
+  margin-top: 112px;
+  color: #0e1b27;
+}
+
+.about_story {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  padding: 70px 8%;
+}
+
+.about_text {
+  max-width: 430px;
+}
+
+.about_text h1,
+.about_values h1 {
+  margin: 0 0 18px;
+  color: #0e1b27;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+
+.about_text h1::after,
+.about_values h1::after {
+  content: "";
+  display: block;
+  width: 42px;
+  height: 2px;
+  margin-top: 14px;
+  background-color: #b8925a;
+}
+
+.about_values h1::after {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about_text p {
+  margin-bottom: 24px;
+  color: rgba(14, 27, 39, 0.7);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.about_text .button {
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 5px;
+  background-color: #9f7d48;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.about_image img {
+  width: 430px;
+  height: 430px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* STATS */
+
+.about_stats {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  padding: 34px 8%;
+  background-color: #0e1b27;
+  color: #fff;
+  text-align: center;
+}
+
+.about_stats h3 {
+  margin: 0 0 6px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 36px;
+}
+
+.about_stats p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* VALUES */
+
+.about_values {
+  padding: 60px 8% 80px;
+  text-align: center;
+}
+
+.values {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 35px;
+}
+
+.values div {
+  width: 280px;
+  padding: 0 30px;
+  border-right: 1px solid rgba(14, 27, 39, 0.1);
+}
+
+.values div:last-child {
+  border-right: 0;
+}
+
+.values h3 {
+  margin-bottom: 12px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 22px;
+}
+
+.values p {
+  color: rgba(14, 27, 39, 0.7);
+  line-height: 1.6;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1100px) {
+  .about_story {
+    gap: 50px;
+  }
+
+  .about_stats {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .about {
+    margin-top: 20px;
+  }
+
+  .about_story {
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 20px;
+  }
+
+  .about_text {
+    max-width: 480px;
+  }
+
+  .about_image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .about_image img {
+    width: 100%;
+    max-width: 500px;
+    height: 420px;
+  }
+
+  .about_stats {
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px 20px;
+  }
+
+  .about_stats div {
+    width: 40%;
+  }
+
+  .about_values {
+    padding: 50px 20px 70px;
+  }
+
+  .values {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .values div {
+    width: 100%;
+    max-width: 500px;
+    padding: 0 0 30px;
+    border-right: 0;
+    border-bottom: 1px solid rgba(14, 27, 39, 0.1);
+  }
+
+  .values div:last-child {
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .about_story {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .about_text h1,
+  .about_values h1 {
+    font-size: 36px;
+  }
+
+  .about_text p,
+  .values p {
+    font-size: 15px;
+  }
+
+  .about_text .button {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about_image img {
+    height: 320px;
+  }
+
+  .about_stats {
+    gap: 30px;
+  }
+
+  .about_stats div {
+    width: 100%;
+  }
+
+  .about_stats h3 {
+    font-size: 32px;
+  }
+
+  .values h3 {
+    font-size: 20px;
+  }
+}

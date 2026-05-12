@@ -1,0 +1,63 @@
+{
+  "Z widokiem na morze": [
+    {
+      "name": "Deluxe Sea View",
+      "img": "assets/images/rooms/sea1.jpg",
+      "price": 720
+    },
+    {
+      "name": "Premium Sea View",
+      "img": "assets/images/rooms/sea2.jpg",
+      "price": 860
+    },
+    {
+      "name": "Superior Sea View",
+      "img": "assets/images/rooms/sea3.jpg",
+      "price": 680
+    },
+    {
+      "name": "Panoramic Sea Suite",
+      "img": "assets/images/rooms/sea4.jpg",
+      "price": 980
+    }
+  ],
+  "Apartamenty": [
+    {
+      "name": "Junior Suite",
+      "img": "assets/images/rooms/apartment1.jpg",
+      "price": 890
+    },
+    {
+      "name": "Executive Apartment",
+      "img": "assets/images/rooms/apartment2.jpg",
+      "price": 1150
+    },
+    {
+      "name": "Luxury Apartment",
+      "img": "assets/images/rooms/apartment3.jpg",
+      "price": 1320
+    },
+    {
+      "name": "Presidential Suite",
+      "img": "assets/images/rooms/apartment4.jpg",
+      "price": 1850
+    }
+  ],
+  "Rodzinne": [
+    {
+      "name": "Family Room",
+      "img": "assets/images/rooms/family1.jpg",
+      "price": 760
+    },
+    {
+      "name": "Family Suite",
+      "img": "assets/images/rooms/family2.jpg",
+      "price": 940
+    },
+    {
+      "name": "Two-Bedroom Family Apartment",
+      "img": "assets/images/rooms/family3.jpg",
+      "price": 1180
+    }
+  ]
+}
